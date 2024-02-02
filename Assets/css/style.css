@@ -58,8 +58,8 @@ body
 {
     display: flex;
     justify-content: center;
-
-    
+    align-items: center;
+    margin: auto;
 }
 
 .principal
@@ -116,6 +116,7 @@ body
     text-transform: uppercase ;
     font-size: 30px;
     flex-wrap: nowrap;
+    text-align: center;
 }
 .album img
 {
@@ -143,4 +144,40 @@ body
 .end_page a:hover
 {
     color: #ff00c1;
+}
+
+@media (max-width: 720px)
+{
+    .album_nome
+    {
+        height: 250px;
+        
+    }
+    .nome
+    {
+        font-size: 20px;
+    }
+    .album img
+    {
+        height: 200px;
+        width: 225px;
+    }
+}
+
+@media (max-width: 550px) 
+{
+    .historia, .principal
+    {
+        width: 90%;
+    }  
+
+    .album_nome
+    {
+        height: auto;
+    }
+
+    .container
+    {
+        flex-direction: column;
+    }
 }
