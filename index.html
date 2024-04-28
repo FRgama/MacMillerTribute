@@ -1,168 +1,129 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/css/style.css">
-    <title>Tributo Mac Miller</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon">
+    <title>Mac Miller</title>
 </head>
 <body>
+    <div class="container">
     <nav>
-        <div class="navbar">
-            <div class="navbar_left">
-                <div class="logo"> <img src="Assets/Images/Logo.jpg" alt=""></div>
-                <div class="link"><a href="#historia">História</a></div>
-                <div class="link"><a href="#albums">Albums</a></div>
-            </div>
-            <div class="navbar_right">
-                <div class="link"><a href="https://github.com/FRgama" target="_blank">Rgama</a></div>
-                <div><a href="https://github.com/FRgama" target="_blank"><img src="Assets/Images/Github.png" alt="" ></a></div>
-            </div>           
-        </div>
+        <ul>
+            <li><img src="Assets/Images/Logo.jpg" alt=""></li>
+            <li><a href="#historia"><h1>história</h1></a></li>
+            <li><a href="#album"><h1>albums</h1></a></li>
+            <li><a href="https://github.com/FRgama" target="_blank"><h1>Github</h1></a></li>
+            <li><a href="https://github.com/FRgama" target="_blank"><img src="Assets/Images/Github.png" alt=""></a></li>
+            
+        </ul>
     </nav>
 
-    <section>
-        <div class="container">
-            
-            <div class="principal">
-            <div class="title">
-                <h1>MAC MILLER</h1>
-            </div>
-            <div class="principal_imagem">
-                <img src="Assets/Images/MacMiller.jpg" alt="">
-            </div>
-
-            <div style="margin-top: 5px;">1992 - 2018</div>            
-        </div>       
-    </section>
-
-    <section>
-        <div class="container">
-            <div id="historia" class="historia">
-                <div class="historia_titulo"><h1>História</h1></div>
-                <div class="historia_texto"><p>
-                    Mac Miller, nascido como Malcolm James McCormick em 1992, foi um rapper e produtor musical americano que ganhou destaque com suas mixtapes iniciais, notadamente "K.I.D.S" e "Macadelic". Ao longo de sua carreira, ele lançou álbuns aclamados como "Blue Slide Park" e "Swimming". Além de sua música, Miller enfrentou desafios pessoais, incluindo lutas com o abuso de substâncias. Infelizmente, em setembro de 2018, ele foi encontrado morto devido a uma overdose acidental. Sua morte teve um impacto significativo na comunidade musical e seus fãs, destacando a vulnerabilidade e complexidade de sua jornada artística e pessoal. Seu álbum póstumo, "Circles", lançado em 2020, continuou a receber elogios pela exploração de temas introspectivos e sonoridades inovadoras.</p></div>
-            </div>
-        </div>
-    </section>
-    
-
-    <h1 style="text-align: center;">ALBUMS</h1>
-    <section>
+    <main>
         
-        <div  id="albums" class="album_nome" style="background-color: #ddd;">
-            <div class="album">
-                <img src="Assets/Images/Circles.jpg" alt="">
-            </div>
-            <div class="nome">
-                <h1>Circles</h1><br>
-                2020
-            </div>
-        </div>
-
-        <div class="album_nome" style="background-color: white;">
+        <section class="biografia_area">
             
-            <div class="nome">
-                <h1>swimming</h1><br>
-                2018
-            </div>
+                <div id="historia" class="main_img">
+                    <H1>MAC MILLER</H1>
+                    <img src="Assets/Images/MacMiller.jpg" alt="">
+                </div>
+                <div class="main_text">
+                    <h1>Biografia</h1>
+                    <p>Mac Miller, nascido como Malcolm James McCormick em 1992, foi um rapper e produtor musical americano que ganhou destaque com suas mixtapes iniciais, notadamente "K.I.D.S" e "Macadelic". Ao longo de sua carreira, ele lançou álbuns aclamados como "Blue Slide Park" e "Swimming". Além de sua música, Miller enfrentou desafios pessoais, incluindo lutas com o abuso de substâncias. Infelizmente, em setembro de 2018, ele foi encontrado morto devido a uma overdose acidental. Sua morte teve um impacto significativo na comunidade musical e seus fãs, destacando a vulnerabilidade e complexidade de sua jornada artística e pessoal. Seu álbum póstumo, "Circles", lançado em 2020, continuou a receber elogios pela exploração de temas introspectivos e sonoridades inovadoras.</p>
+                </div>
+        </section>
+
+        <h1 style="text-align: center;">DISCOGRAFIA</h1>
+        <section  class="albums_grid">
             
-            <div class="album">
-                <img src="Assets/Images/swimming.jfif" alt="">
+            <div id="album" class="album_card">
+                <div class="album_card_img"><img src="Assets/Images/Circles.jpg" alt=""></div>
+                <div class="album_card_text">
+                    <h1>Circles</h1>
+                    <p>Lançamento: 2020</p>
+                </div>
             </div>
-            
-        </div>
 
-        <div class="album_nome" style="background-color: #fae2ff;">
-            <div class="album">
-                <img src="Assets/Images/the divine feminine.webp" alt="">
+            <div  class="album_card">
+                <div class="album_card_text">
+                    <h1>Swimming</h1>
+                    <p>Lançamento: 2018</p>
+                </div>
+                <div class="album_card_img"><img src="Assets/Images/swimming.jfif" alt=""></div>
             </div>
-            <div class="nome">
-                <h1>The divine feminine</h1><br>
-                2016
-            </div>
-        </div>
 
-        <div class="album_nome" style="background-color: #eeeeee;">
-            <div class="nome">
-                <h1>go:od am</h1><br>
-                2015
+            <div class="album_card">
+                <div class="album_card_img"><img src="Assets/Images/Logo.jpg" alt=""></div>
+                <div class="album_card_text">
+                    <h1>The Divine Feminine</h1>
+                    <p>Lançamento: 2016</p>
+                </div>
             </div>
-            <div class="album">
-                <img src="Assets/Images/good-am.jpg" alt="">
-            </div>    
-        </div>
-        
-        <div class="album_nome" style="background-color: #fbd808;">
-            <div class="album">
-                <img src="Assets/Images/faces.jfif" alt="">
-            </div>
-            <div class="nome">
-                <h1>faces</h1><br>
-                2014
-            </div>
-        </div>
 
-        <div class="album_nome" style="background-color: #c70e0e;">
-            <div class="nome">
-                <h1>Watching movies with the sound off</h1><br>
-                2013
+            <div class="album_card">
+                <div class="album_card_text">
+                    <h1>Go:od am</h1>
+                    <p>Lançamento: 2015</p>
+                </div>
+                <div class="album_card_img"><img src="Assets/Images/good-am.jpg" alt=""></div>
             </div>
-            <div class="album">
-                <img src="Assets/Images/watching movies with the sound off.jpg" alt="">
-            </div>    
-        </div>
 
-        <div class="album_nome" style="background-color: #fff;">
-            <div class="album">
-                <img src="Assets/Images/macadelic.jfif" alt="">
+            <div class="album_card">
+                <div class="album_card_img"><img src="Assets/Images/faces.jfif" alt=""></div>
+                <div class="album_card_text">
+                    <h1>faces</h1>
+                    <p>Lançamento: 2014</p>
+                </div>
             </div>
-            <div class="nome">
-                <h1>macadelic</h1><br>
-                2012
-            </div>
-        </div>
 
-        <div class="album_nome" style="background-color: #3366ff;">
-            <div class="nome">
-                <h1>Blue Side park</h1><br>
-                2011
+            <div class="album_card">
+                <div class="album_card_text">
+                    <h1>watching movies with the sound off</h1>
+                    <p>Lançamento: 2013</p>
+                </div>
+                <div class="album_card_img"><img src="Assets/Images/watching movies with the sound off.jpg" alt=""></div>
             </div>
-            <div class="album">
-                <img src="Assets/Images/blue side park.jpg" alt="">
-            </div>    
-        </div>
 
-        <div class="album_nome" style="background-color: black; color: #fff;">
-            
-            <div class="album">
-                <img src="Assets/Images/best day ever.jfif" alt="" style="border: 1px solid #934c93;">
+            <div class="album_card">
+                <div class="album_card_img"><img src="Assets/Images/macadelic.jfif" alt=""></div>
+                <div class="album_card_text">
+                    <h1>Macadelic</h1>
+                    <p>Lançamento: 2012</p>
+                </div>
             </div>
-            <div class="nome">
-                <h1>Best day ever</h1><br>
-                2011
-            </div>
-        </div>
 
-        <div class="album_nome" style="background-color: #7fffd4;">
-            <div class="nome">
-                <h1>k.i.d.s</h1><br>
-                2011
+
+            <div class="album_card">
+                <div class="album_card_text">
+                    <h1>Blue Side Park</h1>
+                    <p>Lançamento: 2011</p>
+                </div>
+                <div class="album_card_img"><img src="Assets/Images/blue side park.jpg" alt=""></div>
             </div>
-            <div class="album">
-                <img src="Assets/Images/kids.jfif" alt="">
-            </div>    
-        </div>
+
+            <div class="album_card">
+                <div class="album_card_img"><img src="Assets/Images/best day ever.jfif" alt=""></div>
+                <div class="album_card_text">
+                    <h1>best day ever</h1>
+                    <p>Lançamento: 2011</p>
+                </div>
+            </div>
+
+            <div class="album_card">
+                <div class="album_card_text">
+                    <h1>k.i.d.s</h1>
+                    <p>Lançamento: 2011</p>
+                </div>
+                <div class="album_card_img"><img src="Assets/Images/kids.jfif" alt=""></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito por: <a href="https://www.linkedin.com/in/rodrigo-gama-b38705231/" target="_blank">Rodrigo Gama</a></p>
+    </footer>
+</div>
     
-        
-    </section>
-    
-    <br>
-
-    <div class="end_page">
-
-        Feito por <a href="https://github.com/FRgama" target="_blank">Rodrigo Gama</a>
-    </div>
 </body>
 </html>
